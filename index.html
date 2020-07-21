@@ -1,0 +1,21 @@
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <title>Todo App</title>
+        <link href="./src/css/index.css" rel="stylesheet" />
+    </head>
+    <tbody>
+        <div class="todoapp">
+            <form id="js-form">
+                <input type="text" id="js-form-input" class="new-todo" placeholder="ToDoを記述してください。" autocomplete="off" />
+            </form>
+            <div id="js-todo-list" class="todo-list">
+                <!-- 動的に更新されるTODOリスト -->
+            </div>
+            <footer class="footer">
+                <span id="js-todo-count">Todoアイテム数: 0</span>
+            </footer>
+        </div>
+        <script type="module" src="index.js"></script>
+    </tbody>
+</html>
